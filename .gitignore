@@ -1,3 +1,7 @@
+# DS Store and Idea
+.idea/
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -59,3 +63,8 @@ typings/
 
 # next.js build output
 .next
+
+# Folders and other specifics
+.sass-cache
+_gh_pages
+_site

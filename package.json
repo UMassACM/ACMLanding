@@ -1,5 +1,5 @@
 {
-  "name": "ACMLanding",
+  "name": "acmlanding",
   "version": "1.0.0",
   "description": "New landing page for UMass ACM",
   "keywords": [
@@ -27,5 +27,10 @@
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
     "start": "npm run css-watch | npm run js-watch"
+  },
+  "homepage": "https://github.com/UMassACM/ACMLanding#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UMassACM/ACMLanding.git"
   }
 }

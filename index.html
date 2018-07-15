@@ -2,6 +2,7 @@
 <html>
   <head>
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <script type="text/javascript" src="node_modules/bulma-extensions/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,133 +33,64 @@
         <div class="columns">
           <div class="column is-8-desktop is-offset-2-desktop">
             <div class="content">
-              <h3>What's included</h3>
+              <h3 class="title is-3 is-spaced">Who are we?</h3>
               <p>
-                The <code>npm</code> dependencies included in <code>package.json</code> are:
+                We are the ACM Student Chapter for UMass Amherst. We're one of the largest computer science organizations on campus, and we hold events and competitions to enrich the computer science student body here at UMass.
+                We're here to provide resources and information to CS students at UMass, and our events are often great networking opportunities and learning experiences.
               </p>
-              <ul>
-                <li>
-                  <code><a href="https://github.com/jgthms/bulma">bulma</a></code>
-                </li>
-                <li>
-                  <code><a href="https://github.com/sass/node-sass">node-sass</a></code> to compile your own Sass file
-                </li>
-                <li>
-                  <code><a href="https://github.com/postcss/postcss-cli">postcss-cli</a></code> and <code><a href="https://github.com/postcss/autoprefixer">autoprefixer</a></code> to add support for older browsers
-                </li>
-                <li>
-                  <code><a href="https://babeljs.io/docs/usage/cli/">babel-cli</a></code>,
-                  <code><a href="https://github.com/babel/babel-preset-env">babel-preset-env</a></code>
-                  and
-                  <code><a href="https://github.com/jmcriffey/babel-preset-es2015-ie">babel-preset-es2015-ie</a></code>
-                  for compiling ES6 JavaScript files
-                </li>
-              </ul>
               <p>
-                Apart from <code>package.json</code>, the following files are included:
+                Regardless of your previous background, UMass ACM exists to help you develop your technical interests.
+                We hold tech talks, workshops, programming competitions, and other events to provide UMass students with the resources they need to be successful in Computer Science.
+                We feature speakers from Google, Amazon, Microsoft, Facebook, any many more!
+                Our events are a great place to network, make friends, and learn from your peers.
+                Whether you're looking for someone to co-found your startup, or just need help with your CS250 homework, chances are you'll find what you're looking for by being a part of UMass ACM.
               </p>
-              <ul>
-                <li>
-                  <code>.babelrc</code> configuration file for <a href="https://babeljs.io/">Babel</a>
-                </li>
-                <li>
-                  <code>.gitignore</code> common <a href="https://git-scm.com/">Git</a> ignored files
-                </li>
-                <li>
-                  <code>index.html</code> this HTML5 file
-                </li>
-                <li>
-                  <code>_sass/main.scss</code> a basic SCSS file that <strong>imports Bulma</strong> and explains how to <strong>customize</strong> your styles, and compiles to <code>css/main.css</code>
-                </li>
-                <li>
-                  <code>_javascript/main.js</code> an ES6 JavaScript that compiles to <code>lib/main.js</code>
-                </li>
-              </ul>
-              <h3>Try it out!</h3>
+              <h3 class="title is-3 is-spaced">Events</h3>
               <p>
-                To see if your setup works, follow these steps:
+                We hold a number of events during the school year, such as:
               </p>
-              <ol>
-                <li>
-                  <p>
-                    <strong>Install</strong> all dependencies:
-                    <br>
-                    <pre><code>npm install</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Start</strong> the CSS and JS watchers:
-                    <br>
-                    <pre><code>npm start</code></pre>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <strong>Edit</strong> <code>_sass/main.scss</code> by adding the following rule at the <strong>end</strong> of the file:
-                    <br>
-                    <pre><code>html { background-color: $green;}</code></pre>
-                  </p>
-                </li>
-              </ol>
+              <h4 class="title is-4 is-spaced">Cambridge Campus Tours</h4>
               <p>
-                The page background should turn <strong class="has-text-success">green</strong>!
+                We've held tours at Google and Microsoft, and hope to reach the rest of the Cambridge tech companies in the near future. Here are snippets of some we've done in the past:
               </p>
-              <h3>Get started</h3>
-              <p>
-                You're <strong>ready</strong> to create your own designs with Bulma. Just edit or duplicate this page, or simply create a new one!
-                <br>
-                For example, this page is <strong>only</strong> built with the following <strong>Bulma elements</strong>:
-              </p>
+              <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
+                <div class='carousel-container'>
+                  <div class='carousel-item has-background is-active'>
+                    <img class="is-background" src="assets/google1.jpeg" alt="" />
+                    <div class="title">Google Cambridge Office</div>
+                  </div>
+                  <div class='carousel-item has-background'>
+                    <img class="is-background" src="assets/google2.jpg" alt="" />
+                    <div class="title">Google Cambridge Office</div>
+                  </div>
+                  <div class='carousel-item has-background'>
+                    <img class="is-background" src="assets/google3.jpg" alt="" />
+                    <div class="title">Google Cambridge Office</div>
+                  </div>
+                  <div class='carousel-item has-background'>
+                    <img class="is-background" src="assets/microsoft1.jpeg" alt="" />
+                    <div class="title">Microsoft Cambridge Office</div>
+                  </div>
+                  <div class='carousel-item has-background'>
+                    <img class="is-background" src="assets/microsoft2.jpg" alt="" />
+                    <div class="title">Microsoft Cambridge Office</div>
+                  </div>
+                  <div class='carousel-item has-background'>
+                    <img class="is-background" src="assets/microsoft3.jpeg" alt="" />
+                    <div class="title">Microsoft Cambridge Office</div>
+                  </div>
+                </div>
+                <div class="carousel-navigation is-centered">
+                  <div class="carousel-nav-left">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                  </div>
+                  <div class="carousel-nav-right">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <table class="table is-bordered is-fullwidth">
-              <thead>
-                <tr>
-                  <th>Type</th>
-                  <th>CSS class</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th>Columns</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/columns/basics">columns</a></code>
-                    <code><a href="http://bulma.io/documentation/columns/basics">column</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Layout</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/layout/section">section</a></code>
-                    <code><a href="http://bulma.io/documentation/layout/container">container</a></code>
-                    <code><a href="http://bulma.io/documentation/layout/footer">footer</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Elements</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/elements/button">button</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/content">content</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/title">title</a></code>
-                    <code><a href="http://bulma.io/documentation/elements/title">subtitle</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Form</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/form/general">field</a></code>
-                    <code><a href="http://bulma.io/documentation/form/general">control</a></code>
-                  </td>
-                </tr>
-                <tr>
-                  <th>Helpers</th>
-                  <td>
-                    <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-centered</a></code>
-                    <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-weight-semibold</a></code>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </div>
